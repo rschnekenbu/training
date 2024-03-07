@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_fpz7QLVvEeGV7u1rdFDubQ" elementId="org.eclipse.example.e4.application">
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_fpz7QLVvEeGV7u1rdFDubQ" elementId="org.eclipse.example.e4.application">
   <children xsi:type="basic:TrimmedWindow" xmi:id="_g4R5gLVvEeGV7u1rdFDubQ" elementId="org.eclipse.example.e4.trimmedwindow.0">
     <children xsi:type="basic:PartSashContainer" xmi:id="_7AYNgNxTEe6osaI-4_207Q" elementId="org.eclipse.example.e4.partsashcontainer.0">
       <children xsi:type="basic:PartStack" xmi:id="_7nNkANxTEe6osaI-4_207Q" elementId="org.eclipse.example.e4.partstack.0">
@@ -7,8 +7,13 @@
         <children xsi:type="basic:Part" xmi:id="_Ky65MNxUEe6osaI-4_207Q" elementId="org.eclipse.example.e4.part.contactdetailview" contributionURI="bundleclass://org.eclipse.example.e4/org.eclipse.example.e4.parts.ContactDetailView" label="Contact Detail View" iconURI="platform:/plugin/org.eclipse.example.e4/icons/sample.gif"/>
       </children>
     </children>
-    <trimBars xmi:id="_6zhFEBqcEeKVWJkcb1cPZw" elementId="org.eclipse.example.e4.trimbar.0"/>
+    <trimBars xmi:id="_6zhFEBqcEeKVWJkcb1cPZw" elementId="org.eclipse.example.e4.trimbar.0">
+      <children xsi:type="menu:ToolBar" xmi:id="_O3A5YNxXEe6osaI-4_207Q" elementId="org.eclipse.example.e4.toolbar.0">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_PVGjkNxXEe6osaI-4_207Q" elementId="org.eclipse.example.e4.handledtoolitem.save" label="Save" iconURI="platform:/plugin/org.eclipse.example.e4/icons/save.gif" command="_VfXtcNxXEe6osaI-4_207Q"/>
+      </children>
+    </trimBars>
   </children>
+  <handlers xmi:id="_ZyvnINxXEe6osaI-4_207Q" elementId="org.eclipse.example.e4.handler.0" contributionURI="bundleclass://org.eclipse.example.e4/org.eclipse.example.e4.handlers.SaveHandler" command="_VfXtcNxXEe6osaI-4_207Q"/>
   <bindingTables xmi:id="_0yA0oBqnEeKVWJkcb1cPZw" elementId="org.eclipse.example.e4.bindingtable.0" bindingContext="_4pvwoBqmEeKVWJkcb1cPZw">
     <bindings xmi:id="_1l3TcBqnEeKVWJkcb1cPZw" elementId="org.eclipse.example.e4.keybinding.0" keySequence="M1+N"/>
     <bindings xmi:id="__X4nIBqnEeKVWJkcb1cPZw" elementId="org.eclipse.example.e4.keybinding.1" keySequence="M1+S"/>
@@ -17,6 +22,7 @@
     <children xmi:id="_9Y_G8BqmEeKVWJkcb1cPZw" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
     <children xmi:id="_APSlsBqnEeKVWJkcb1cPZw" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
   </rootContext>
+  <commands xmi:id="_VfXtcNxXEe6osaI-4_207Q" elementId="org.eclipse.example.e4.command.save" commandName="Save" description="Save the current details" commandIconURI="platform:/plugin/org.eclipse.example.e4/icons/save.gif"/>
   <addons xmi:id="_fpz7QbVvEeGV7u1rdFDubQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_fpz7QrVvEeGV7u1rdFDubQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_fpz7Q7VvEeGV7u1rdFDubQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

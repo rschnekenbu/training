@@ -3,6 +3,7 @@ package org.eclipse.example.e4.parts;
 
 import org.eclipse.e4.core.di.annotations.Optional;
 import org.eclipse.e4.ui.di.Focus;
+import org.eclipse.e4.ui.di.Persist;
 import org.eclipse.e4.ui.model.application.ui.MDirtyable;
 import org.eclipse.e4.ui.services.IServiceConstants;
 import org.eclipse.example.e4.model.ContactEntry;
@@ -69,4 +70,10 @@ public class ContactDetailView {
 			text.setText("");
 		}
 	} 
+	
+	@Persist
+	public void save() {
+		entry.setName(text.getText());
+		part.setDirty(false);
+	}
 }
