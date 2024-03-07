@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_fpz7QLVvEeGV7u1rdFDubQ" elementId="org.eclipse.example.e4.application">
   <children xsi:type="basic:TrimmedWindow" xmi:id="_g4R5gLVvEeGV7u1rdFDubQ" elementId="org.eclipse.example.e4.trimmedwindow.0">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_7AYNgNxTEe6osaI-4_207Q" elementId="org.eclipse.example.e4.partsashcontainer.0">
+      <children xsi:type="basic:PartStack" xmi:id="_7nNkANxTEe6osaI-4_207Q" elementId="org.eclipse.example.e4.partstack.0">
+        <children xsi:type="basic:Part" xmi:id="_7_jLgNxTEe6osaI-4_207Q" elementId="org.eclipse.example.e4.part.contacttableview" contributionURI="bundleclass://org.eclipse.example.e4/org.eclipse.example.e4.parts.ContactTableView" label="Contact Table View" iconURI="platform:/plugin/org.eclipse.example.e4/icons/sample.gif"/>
+        <children xsi:type="basic:Part" xmi:id="_Ky65MNxUEe6osaI-4_207Q" elementId="org.eclipse.example.e4.part.contactdetailview" contributionURI="bundleclass://org.eclipse.example.e4/org.eclipse.example.e4.parts.ContactDetailView" label="Contact Detail View" iconURI="platform:/plugin/org.eclipse.example.e4/icons/sample.gif"/>
+      </children>
+    </children>
     <trimBars xmi:id="_6zhFEBqcEeKVWJkcb1cPZw" elementId="org.eclipse.example.e4.trimbar.0"/>
   </children>
   <bindingTables xmi:id="_0yA0oBqnEeKVWJkcb1cPZw" elementId="org.eclipse.example.e4.bindingtable.0" bindingContext="_4pvwoBqmEeKVWJkcb1cPZw">
