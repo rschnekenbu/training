@@ -41,10 +41,9 @@ public class ContactTableView {
 		SWTExampleHelper.dispose(viewer);
 	}
 	
-	
 	@Focus
-	public void onFocus() {
-		
+	void setFocus() {
+		viewer.getControl().setFocus();
 	}
 	
 	
