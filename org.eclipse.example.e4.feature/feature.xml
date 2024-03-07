@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.example.e4.feature"
+      label="Feature"
+      version="1.0.0.qualifier">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.emf.edit"/>
+      <import plugin="org.eclipse.emf.edit.ui"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.example.e4"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.example.e4.model"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.example.e4.model.edit"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.example.service"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.ui.workbench"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.ui"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.ui.views"
+         version="0.0.0"/>
+
+   <plugin
+         id="org.eclipse.help"
+         version="0.0.0"/>
+
+</feature>

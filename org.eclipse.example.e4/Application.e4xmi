@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_fpz7QLVvEeGV7u1rdFDubQ" elementId="org.eclipse.example.e4.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_g4R5gLVvEeGV7u1rdFDubQ" elementId="org.eclipse.example.e4.trimmedwindow.0">
+    <trimBars xmi:id="_6zhFEBqcEeKVWJkcb1cPZw" elementId="org.eclipse.example.e4.trimbar.0"/>
+  </children>
+  <bindingTables xmi:id="_0yA0oBqnEeKVWJkcb1cPZw" elementId="org.eclipse.example.e4.bindingtable.0" bindingContext="_4pvwoBqmEeKVWJkcb1cPZw">
+    <bindings xmi:id="_1l3TcBqnEeKVWJkcb1cPZw" elementId="org.eclipse.example.e4.keybinding.0" keySequence="M1+N"/>
+    <bindings xmi:id="__X4nIBqnEeKVWJkcb1cPZw" elementId="org.eclipse.example.e4.keybinding.1" keySequence="M1+S"/>
+  </bindingTables>
+  <rootContext xmi:id="_4pvwoBqmEeKVWJkcb1cPZw" elementId="org.eclipse.ui.contexts.windowAndDialog" name="In WIndows and Dialogs">
+    <children xmi:id="_9Y_G8BqmEeKVWJkcb1cPZw" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+    <children xmi:id="_APSlsBqnEeKVWJkcb1cPZw" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+  </rootContext>
+  <addons xmi:id="_fpz7QbVvEeGV7u1rdFDubQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_fpz7QrVvEeGV7u1rdFDubQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_fpz7Q7VvEeGV7u1rdFDubQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_fpz7RLVvEeGV7u1rdFDubQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_fpz7RbVvEeGV7u1rdFDubQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_fpz7RrVvEeGV7u1rdFDubQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_ge-WkDvsEeOqBux0ROPxLA" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+</application:Application>
